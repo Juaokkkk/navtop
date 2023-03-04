@@ -149,9 +149,67 @@ nav {
     display: flex;
     justify-content: space-between;
     top: 40px;
-    right: 70px;
+    right: 300px;
     height: 7vh;
-    width: 55vw;
+    width: 30vw;
     margin: 0 auto;
+  }
+  .Foto{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    height: 550px;
+    width: 80%;
+    background-color: gray;
+  }
+
+  footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:200px;
+}
+  }
+
+
+@media (max-width: 425px){
+  .nav-list {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .linha {
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .nav-2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 60px;
+    right: 60px;
+    height: 7vh;
+    width: 67vw;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .Foto{
+    position: relative;
+    top: 120px;
+    left: 30px;
+    height: 550px;
+    width: 85%;
+    background-color: gray;
+  }
+  footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:215px;
   }
 }
