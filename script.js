@@ -1,3 +1,2 @@
-const navList = document.querySelector('.nav-list');
-
-document.querySelector('.mobile-menu').onclick = () => navList.dataset.show = +!~~navList.dataset.show
+const header = document.querySelector('header')
+document.querySelector('.hamburguer-wrapper').onclik = () => header.dataset.active = +~~header.dataset.active
